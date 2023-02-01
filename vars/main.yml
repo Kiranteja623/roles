@@ -1,0 +1,4 @@
+---
+# vars file for jdk
+java: openjdk-11-jdk
+java1: openjdk-17-jdk
