@@ -36,3 +36,28 @@ Author Information
 ------------------
 
 An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+
+
+
+Manual steps for installation of java
+----------------------------------------------------
+* for jdk13
+---
+https://java.tutorials24x7.com/blog/how-to-install-openjdk-13-on-ubuntu
+sudo mkdir /usr/java
+cd /usr/java/
+wget https://download.java.net/java/GA/jdk13.0.2/d4173c853231432d94f001e99d882ca7/8/GPL/openjdk-13.0.2_linux-x64_bin.tar.gz
+sudo tar -xvzf openjdk-13.0.2_linux-x64_bin.tar.gz
+sudo nano /etc/profile
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/java/jdk-13.0.2/bin/java" 1
+ sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/java/jdk-13.0.2/bin/javac" 1
+java --version
+
+---
+
+* for java 11 and 17
+---
+sudo apt update
+sudo apt install openjdk-11-jdk -y
+sudo apt install openjdk-17-jdk -y
+---
