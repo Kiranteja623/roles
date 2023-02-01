@@ -42,7 +42,7 @@ An optional section for the role authors to include contact information, or a we
 Manual steps for installation of java
 ----------------------------------------------------
 * for jdk13
-* for documentation [Refer Here] (https://java.tutorials24x7.com/blog/how-to-install-openjdk-13-on-ubuntu)
+* for documentation [refer here](https://java.tutorials24x7.com/blog/how-to-install-openjdk-13-on-ubuntu)
 
 ```
    sudo mkdir /usr/java
