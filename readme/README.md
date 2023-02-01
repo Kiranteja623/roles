@@ -65,4 +65,4 @@ sudo apt update
 sudo apt install openjdk-11-jdk -y
 sudo apt install openjdk-17-jdk -y
 ```
-![preview] (download(1).jpg)
+![preview] (C:\Users\Kiran Teja\rolesjdk\roles.download(1).jpg)
